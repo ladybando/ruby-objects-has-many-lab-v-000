@@ -3,7 +3,7 @@ class Author
 
   def initialize(namw)
     @name = name
-    @post = []
+    @posts = []
   end
 
   def add_post(post)
@@ -20,6 +20,7 @@ class Author
     @post << post
     post.author = self
   end
+
 
   @@post_count = 0
 
