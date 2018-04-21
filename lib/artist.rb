@@ -27,7 +27,6 @@ class Artist
 
 
   def self.song_count
-    @@song_count += 2
     @@song_count
     #binding.pry
     end
