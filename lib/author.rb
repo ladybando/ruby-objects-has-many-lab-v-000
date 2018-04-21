@@ -11,8 +11,8 @@ class Author
     post.author = self
   end
 
-  def songs
-    @songs
+  def post
+    @post
   end
 
   def add_song_by_name(name)
