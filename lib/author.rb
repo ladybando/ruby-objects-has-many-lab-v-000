@@ -19,6 +19,7 @@ class Author
     post = Post.new(title)
     @posts << post
     post.author = self
+    #binding.pry
   end
 
 
@@ -28,6 +29,5 @@ class Author
   def self.post_count
     @@post_count += 2
     @@post_count
-    #binding.pry
     end
 end
