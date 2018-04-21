@@ -25,8 +25,7 @@ class Artist
   @@song_count = 0
 
 
-  def self.song_count(song)
-    @@song_count << song
+  def self.song_count
     @@song_count += 1
     @@song_count
     binding.pry
