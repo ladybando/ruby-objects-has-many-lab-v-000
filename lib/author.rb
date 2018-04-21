@@ -1,9 +1,9 @@
 class Author
   attr_accessor :name, :songs
 
-  def initialize(name)
+  def initialize(namw)
     @name = name
-    @songs = []
+    @post = []
   end
 
   def add_song(song)
