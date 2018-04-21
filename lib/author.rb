@@ -21,7 +21,7 @@ class Author
     post.author = self
   end
 
-  @@song_count = 0
+  @@post_count = 0
 
 
   def self.song_count
