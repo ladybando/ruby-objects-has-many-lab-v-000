@@ -24,7 +24,7 @@ class Author
   @@post_count = 0
 
 
-  def self.song_count
+  def self.post_count
     @@song_count += 2
     @@song_count
     #binding.pry
